@@ -1,0 +1,269 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+
+p {
+    line-height: 2;
+    font-size: 19px;
+
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #D2E9E9;
+    border-width: 5px;
+    width: 5%;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #19A7CE;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #19A7CE;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #82C3EC;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.contact {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.top-container {
+    background-color: #ECF8F9;
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    padding: 60px 0;
+}
+
+.bottom-container {
+    background-color: #55b6eb;
+    padding: 25px 0 10px;
+}
+
+.web {
+    text-decoration: underline;
+}
+
+.web1 {
+    font-size: 25px;
+}
+
+a {
+    color: #B6EAFA;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.htmlcssimg {
+    position: absolute;
+    width: 150px;
+    right: 300px;
+    top: 40px;
+}
+
+.jsimage {
+    position: absolute;
+    width: 70px;
+    left: 250px;
+    bottom: 70px;
+}
+
+.webdevgif {
+    position: relative;
+    top: 14px;
+    width: 530px;
+}
+
+.gif1 {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.gif2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.skill {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.myintro {
+    width: 30%;
+    margin: auto;
+}
+
+.btn {
+    background: #42a9ed;
+    background-image: linear-gradient(to bottom, #42a9ed, #0e72b0);
+    border-radius: 9px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #55b6eb;
+    background-image: linear-gradient(to bottom, #55b6eb, #4493c7);
+    text-decoration: none;
+}
+
+.cpyright {
+    color: white;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+
+@media(max-width:360px) {
+    h1 {
+        color: #19A7CE;
+        font-size: 45px;
+        margin: 50px auto 0 auto;
+        font-family: 'Sacramento', cursive;
+    }
+
+    h2 {
+        color: #19A7CE;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        padding-bottom: auto;
+    }
+
+    .htmlcssimg {
+        position: absolute;
+        width: 100px;
+        right: 50px;
+        top: 40px;
+    }
+
+    .jsimage {
+        position: relative;
+        width: 50px;
+        left: 0px;
+        bottom: 60px;
+    }
+
+    .webdevgif {
+        width: 300px;
+    }
+
+    .myintro {
+        width: 75%;
+        margin: auto;
+    }
+
+    .gif1 {
+        width: 45%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .gif2 {
+        width: 45%;
+        float: right;
+        margin-left: 30px;
+    }
+
+    p {
+        line-height: 2;
+        font-size: 15px;
+
+    }
+}
+
+@media(max-width:700px) {
+    h1 {
+        color: #19A7CE;
+        font-size: 45px;
+        margin: 50px auto 0 auto;
+        font-family: 'Sacramento', cursive;
+    }
+
+    h2 {
+        color: #19A7CE;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        padding-bottom: auto;
+    }
+
+    .htmlcssimg {
+        position: absolute;
+        width: 100px;
+        right: 50px;
+        top: 40px;
+    }
+
+    .jsimage {
+        position: absolute;
+        width: 50px;
+        left: 20px;
+        bottom: 60px;
+    }
+
+    .webdevgif {
+        width: 300px;
+    }
+
+    .myintro {
+        width: 65%;
+        margin: auto;
+    }
+
+    .gif1 {
+        width: 60%;
+        float: left;
+        margin-right: 30px;
+    }
+
+    .gif2 {
+        width: 60%;
+        float: right;
+        margin-left: 0px;
+    }
+
+    .intro2 {
+        width: 120%;
+    }
+
+    .intro3 {
+        width: 120%;
+    }
+
+    p {
+        line-height: 2;
+        font-size: 15px;
+
+    }
+}
